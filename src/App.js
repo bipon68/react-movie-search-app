@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SearchMovies from './searchMovie';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>React Hooks Movie search App</h2>
+      <SearchMovies />
     </div>
   );
 }
 
 export default App;
+
+
+//to create the SearchMovies component
+//form with a class of form
+//label with htmlFor="query" and a class of Label
+//input of type text with a name of "query" and a placeholder
+//button class of button and a type of submit

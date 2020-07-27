@@ -1,3 +1,6 @@
+### Sign up and get an API key
+[The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
